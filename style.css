@@ -33,13 +33,13 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 400;
     color: #fff
 }
 
 p {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 400;
     margin: 10px 0;
     line-height: 25px;
@@ -206,6 +206,7 @@ img {
     padding-top: 20px;
     text-align: left;
     margin: 20px;
+
 }
 
 
@@ -236,7 +237,8 @@ img {
 .servicios-fila-caja p {
     padding-top: 15px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+
 
 }
 
@@ -323,7 +325,7 @@ form {
 label {
     display: block;
     margin: 1.25rem 0 .5rem 0;
-    font-size: 1.25rem;
+    font-size: 15px;
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -334,11 +336,11 @@ label {
 textarea {
     display: block;
     width: 100%;
-    padding: .45rem .6rem;
+    padding: .4rem .15rem;
     border-radius: 1rem;
     color: black;
     transition: .2s ease-in;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 
@@ -351,7 +353,9 @@ button {
     margin: 1rem 0;
     color: #fff;
     border-radius: 1rem;
-    font-size: 15px;
+    font-size: 12px;
+
+
 }
 
 button:hover {
