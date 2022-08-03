@@ -1,0 +1,385 @@
+/*FAMILIA TIPOGRAFICA*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background: #abd1c6
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILOS TIPO*/
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff
+}
+
+p {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 10px 0;
+    line-height: 25px;
+    color: #fff
+}
+
+h2,
+h4 {
+    margin-bottom: 15px;
+}
+
+.large {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+}
+
+/*LISTAS E IMAGENES*/
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*BOTONES*/
+.boton-contacto {
+    background-color: #f9bc60;
+    border: 1px solid#f9bc60;
+    color: #fff;
+}
+
+.boton-contacto {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+
+.boton-contacto:hover {
+    background-color: #fff;
+    border: 1px solid#f9bc60;
+    color: #f9bc60;
+}
+
+
+/*CONTENEDORES*/
+.contenedor-porfolio,
+.contenedor-redes,
+.contenedor-carrusel,
+.contenedor-mensaje,
+.contenedor-servicios,
+.contenedor-nosotras {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
+/*HEADER CON IMAGEN*/
+
+#mainheader {
+    background-image: url(img/banner-encabezado.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+/*HEADER CON IMAGEN*/
+.navbar {
+    height: 100px;
+
+}
+
+
+.navbar .logo {
+    float: left;
+    padding-block: 10px;
+
+}
+
+.navbar a {
+    color: #fffffe;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar a:hover {
+    color: #f9bc60;
+
+}
+
+.navbar .contenedornav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 150px;
+
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    margin-left: 30px;
+}
+
+/*MENSAJE DE BIENVENIDA*/
+.cajadelmensaje h1 {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.cajadelmensaje {
+    float: right;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+
+/* SOBRE NOSOTRAS*/
+#nosotras {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.nosotras-fila {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nosotras-fila-caja {
+    flex: 1;
+    margin: 20px 20px;
+    border: 5px solid #fff;
+}
+
+.nosotras-fila-caja h3 {
+    padding-top: 16px;
+    font-weight: 600;
+}
+
+.nosotras-fila-caja p {
+    padding-top: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+
+/*SERVICIOS*/
+
+#servicios {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servicios-fila {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.servicios-fila-caja {
+    flex: 1;
+    border: 5px solid #fff;
+    margin: 40px 10px;
+}
+
+.servicios-fila-caja h3 {
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.servicios-fila-caja p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+/*PORFOLIO*/
+
+#porfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.porfolio-fila {
+    display: flex;
+}
+
+.porfolio-fila-cont {
+    margin: 20px;
+    background: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.porfolio-fila-cont p {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    color: #f9bc60;
+    font-weight: 500;
+}
+
+/*ULTIMOS TRABAJOS - CARRUSEL DE IMAGENES */ #ultimos-trabajos-realizados {
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.slider-carrusel {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-carrusel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider-carrusel li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-carrusel img {
+    width: 100%;
+}
+
+
+.carrouselcontrol {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.carrouselcontrol a {
+    color: #f9bc60;
+}
+
+/*CONTACTO*/
+/*FORMULARIO*/
+
+
+.contenedor {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 50px 350px;
+}
+
+
+form {
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    margin: 1.25rem 0 .5rem 0;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+#nombres,
+#e-mail,
+textarea {
+    display: block;
+    width: 100%;
+    padding: .45rem .6rem;
+    border-radius: 1rem;
+    color: black;
+    transition: .2s ease-in;
+    font-size: 15px;
+}
+
+
+button {
+    background-color: #f9bc60;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #f9bc60;
+}
+
+
+/*RRSS*/
+
+.redes .contenedor-redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.redes .caja-redes {
+    flex: 1;
+    margin: 10px 30px;
+    padding: 10px 150px;
+}
+
+
+
+/*FOOTER*/
+footer {
+
+    padding-top: 50px;
+    text-align: center;
+
+}
