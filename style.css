@@ -387,3 +387,14 @@ footer {
     text-align: center;
 
 }
+
+/*IMAGENES DE LAS OTRAS PAGINAS CENTRADAS*/
+.centrar {
+
+display: flex;
+justify-content: center;
+padding: 20px;
+height: 100vh;
+
+}
+
